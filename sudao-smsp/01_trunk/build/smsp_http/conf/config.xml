@@ -1,0 +1,61 @@
+<!-- dispath db info -->
+<key>dispath_dbhost</key>
+<string>10.10.201.63</string>
+
+<key>dispath_dbport</key>
+<integer>3306</integer>
+
+<key>dispath_dbuser</key>
+<string>ucpaas_sms_user</string>
+
+<key>dispath_dbpwd</key>
+<string>db_ucpaas_sms_pass</string>
+
+<key>dispath_dbname</key>
+<string>ucpaas_smsp</string>
+
+<key>dispath_db_thread_num</key>
+<integer>1</integer>
+
+<!-- run db info -->
+<key>run_dbhost</key>
+<string>172.16.5.145</string>
+
+<key>run_dbport</key>
+<integer>3306</integer>
+
+<key>run_dbuser</key>
+<string>root</string>
+
+<key>run_dbpwd</key>
+<string>ucpaas.com</string>
+
+<key>run_dbname</key>
+<string>ucpaas_message_access_5_0</string>
+
+<!-- db_execult_err_alarm -->
+<key>db_execult_err_cunts</key>
+<integer>3</integer>
+
+<key>dbalarm_time_intvl_mins</key>
+<integer>5</integer>
+
+<!-- thread sleep time, usec  -->
+<key>usec_sleep</key>
+<integer>10000</integer>
+
+<key>component_id</key>
+<long>1</long>
+
+<!-- smsp alarm setting -->
+<key>alarmurl</key>
+<string>http://sendsms.ucpaas.com:8194/alarm/sms/alarm</string>
+
+<key>alarmopostdata</key>
+<string>dpmId=101&amp;mobile=%phone%&amp;content=%content%</string>
+
+<key>redis_DB_Ids</key>
+<string>0,4</string>
+
+<key>https_push_thread_nums</key>
+<integer>2</integer>

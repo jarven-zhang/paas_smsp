@@ -1,0 +1,65 @@
+<!-- running db info -->
+<key>run_dbhost</key>
+<string>10.10.201.63</string>
+
+<key>run_dbport</key>
+<integer>3306</integer>
+
+<key>run_dbuser</key>
+<string>ucpaas_sms_user</string>
+
+<key>run_dbpwd</key>
+<string>db_ucpaas_sms_pass</string>
+
+<key>run_dbname</key>
+<string>ucpaas_smsp</string>
+
+<key>run_db_thread_num</key>
+<integer>3</integer>
+
+<!-- dispath db info -->
+<key>dispath_dbhost</key>
+<string>10.10.201.63</string>
+
+<key>dispath_dbport</key>
+<integer>3306</integer>
+
+<key>dispath_dbuser</key>
+<string>ucpaas_sms_user</string>
+
+<key>dispath_dbpwd</key>
+<string>db_ucpaas_sms_pass</string>
+
+<key>dispath_dbname</key>
+<string>ucpaas_smsp</string>
+
+<key>dispath_db_thread_num</key>
+<integer>1</integer>
+
+<!-- thread sleep time, usec  -->
+<key>usec_sleep</key>
+<integer>10000</integer>
+
+<!-- db_execult_err_alarm -->
+<key>db_execult_err_cunts</key>
+<integer>3</integer>
+
+<key>dbalarm_time_intvl_mins</key>
+<integer>5</integer>
+
+<key>component_id</key>
+<long>10</long>
+
+<!-- 0 access database,1 record database -->
+<key>consumer_database</key>
+<integer>1</integer>
+
+<!-- smsp alarm setting -->
+<key>alarmurl</key>
+<string>http://sendsms.ucpaas.com:8194/alarm/sms/alarm</string>
+
+<key>alarmopostdata</key>
+<string>dpmId=101&amp;mobile=%phone%&amp;content=%content%</string>
+
+<key>redis_DB_Ids</key>
+<string>5</string>

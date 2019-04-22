@@ -1,0 +1,86 @@
+<!-- dispath db info -->
+<key>dispath_dbhost</key>
+<string>172.16.5.40</string>
+
+<key>dispath_dbport</key>
+<integer>3306</integer>
+
+<key>dispath_dbuser</key>
+<string>smsp</string>
+
+<key>dispath_dbpwd</key>
+<string>123456</string>
+
+<key>dispath_dbname</key>
+<string>smsp_message_test</string>
+
+<key>dispath_db_thread_num</key>
+<integer>1</integer>
+
+
+<!-- run db info -->
+<key>run_dbhost</key>
+<string>172.16.5.40</string>
+
+<key>run_dbport</key>
+<integer>3306</integer>
+
+<key>run_dbuser</key>
+<string>smsp</string>
+
+<key>run_dbpwd</key>
+<string>123456</string>
+
+<key>run_dbname</key>
+<string>smsp_message_test</string>
+
+<key>run_db_thread_num</key>
+<integer>2</integer>
+
+<!-- thread sleep time, usec  -->
+<key>usec_sleep</key>
+<integer>10000</integer>
+
+<!-- db_execult_err_alarm -->
+<key>db_execult_err_cunts</key>
+<integer>3</integer>
+
+<key>dbalarm_time_intvl_mins</key>
+<integer>5</integer>
+
+<!-- smsp_send component id  -->
+<key>component_id</key>
+<long>1002545</long>
+
+<!-- smsp_test http serv addr -->
+<key>http_server_addr</key>
+<string>172.16.5.45:9988</string>
+
+<key>webserverhost</key>
+<string>172.16.5.45</string>
+
+<key>webserverport</key>
+<integer>9988</integer>
+
+<key>sgipreportIP</key>
+<string>172.16.5.45</string>
+
+<key>sgipreportPORT</key>
+<integer>30102</integer>
+
+<!--认证用户民和密码-->
+<key>clientName</key>
+<string>smsp-test</string>
+
+<key>clientPassword</key>
+<string>123456</string>
+
+<!-- smsp alarm setting -->
+<key>alarmurl</key>
+<string>http://sendsms.ucpaas.com:8194/alarm/sms/alarm</string>
+
+<key>alarmopostdata</key>
+<string>dpmId=101&amp;mobile=%phone%&amp;content=%content%</string>
+
+<key>redis_DB_Ids</key>
+<string></string>

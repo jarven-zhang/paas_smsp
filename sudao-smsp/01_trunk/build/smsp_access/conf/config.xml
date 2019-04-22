@@ -1,0 +1,53 @@
+<!-- dispath db info -->
+<key>dispath_dbhost</key>
+<string>172.16.5.41</string>
+
+<key>dispath_dbport</key>
+<integer>3306</integer>
+
+<key>dispath_dbuser</key>
+<string>common_user</string>
+
+<key>dispath_dbpwd</key>
+<string>ucpaas.com</string>
+
+<key>dispath_dbname</key>
+<string>smsp_message_5.5</string>
+
+<key>dispath_db_thread_num</key>
+<integer>1</integer>
+
+<!-- db_execult_err_alarm -->
+<key>db_execult_err_cunts</key>
+<integer>3</integer>
+
+<key>dbalarm_time_intvl_mins</key>
+<integer>5</integer>
+
+<!-- thread sleep time, usec  -->
+<key>usec_sleep</key>
+<integer>10000</integer>
+
+<!-- smsp_audit url-->
+<key>SmspAuditUrl</key>
+<string>http://10.10.201.64:19020</string>
+
+<!-- charge server -->
+<key>smsp_charge_url</key>
+<string>http://172.16.5.21:12344/smscharge</string>
+
+<key>component_id</key>
+<long>1</long>
+
+<!-- smsp alarm setting -->
+<key>alarmurl</key>
+<string>http://sendsms.ucpaas.com:8194/alarm/sms/alarm</string>
+
+<key>alarmopostdata</key>
+<string>dpmId=101&amp;mobile=%phone%&amp;content=%content%</string>
+
+<key>redis_DB_Ids</key>
+<string>0,1,5</string>
+
+<key>redis_overrate_DB_Ids</key>
+<string>0,1</string>
